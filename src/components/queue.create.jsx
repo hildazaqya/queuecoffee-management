@@ -23,7 +23,7 @@ export const QueueCreate = () => {
         <div className="mt-5 flex flex-col px-8 w-full">
         <h2 className="text-xl font-semibold text-neutral">Add New Order</h2>
         <div className="flex flex-row gap-3 w-full text-base mt-2 ">
-          <select value={coffee} onChange={(e) => setCoffee(e.target.value)} required className="bg-accent rounded-lg w-full shadow-md text-neutral p-2 max-w-[600px]">
+          <select value={coffee} onChange={(e) => setCoffee(e.target.value)} required className="bg-accent rounded-lg w-full shadow-md text-neutral p-2">
             <option value="Kopi Susu D'Cream">Kopi Susu D&apos;Cream</option>
             <option value="Cold Brew Coffee">Cold Brew Coffee</option>
             <option value="Greentea">Greentea</option>
@@ -39,7 +39,7 @@ export const QueueCreate = () => {
             required
             className="max-w-[200px] p-2 bg-accent shadow-lg text-neutral rounded-lg"
           />
-          <button type="submit" className="bg-[#816B6B] rounded-lg text-xl p-2 text-neutral max-w-[400px] font-semibold" onClick={handleCreateQueue}>Add to Queue</button>
+          <button type="submit" className="bg-[#816B6B] rounded-lg text-xl p-2 text-neutral w-[300px] font-semibold" onClick={handleCreateQueue}>Add to Queue</button>
         </div>
       </div>
     )
