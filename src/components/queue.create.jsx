@@ -24,7 +24,7 @@ export const QueueCreate = () => {
         <h2 className="text-xl font-semibold text-neutral">Add New Order</h2>
         <div className="flex flex-row gap-3 w-full text-base mt-2 ">
           <select value={coffee} onChange={(e) => setCoffee(e.target.value)} required className="bg-accent rounded-lg w-full shadow-md text-neutral p-2 max-w-[600px]">
-            <option value="Kopi Susu D'Cream">Kopi Susu D'Cream</option>
+            <option value="Kopi Susu D'Cream">Kopi Susu D&apos;Cream</option>
             <option value="Cold Brew Coffee">Cold Brew Coffee</option>
             <option value="Greentea">Greentea</option>
             <option value="Americano">Americano</option>
